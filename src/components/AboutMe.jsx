@@ -19,7 +19,7 @@ export default function AboutMe() {
               </div>
   
               <div >
-                  <img  src="src/assets/img/laptop.png" alt="" />
+                  <img  src="../../../src/assets/img/laptop.png" alt="" />
               </div>
   
           </div>
