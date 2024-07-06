@@ -6,7 +6,7 @@ import Cube from '../../public/Cube.jsx'
 
 export default function HeroModel() {
   return (
-    <Canvas style={{ height: '80vh' }} camera={{ 
+    <Canvas style={{ height: '53vh', width: '100%' }} camera={{ 
         position: [5, 6, 5], 
         fov: 65,
         near: 0.1,

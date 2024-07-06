@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="container px-6 py-16 mx-auto align-middle">
         <div className="items-center lg:flex">
             <div className="flex items-center justify-center w-full h-full mt-6 lg:mt-0 lg:w-1/2">
-                <img src="./img/RPS.png" alt="" />
+                <HeroModel />
             </div>
 
             <div className="w-full lg:w-1/2">
@@ -17,9 +17,9 @@ export default function Hero() {
         
                     <p className="mt-3 text-gray-600 dark:text-gray-100 text-lg">From concept to code, I bring ideas to life with clean, efficient frontend development and intuitive UI/UX design. Let's create web solutions that not only look great but also deliver exceptional user experiences.</p>
         
-                    <button className="mt-6 px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-yellow-400 rounded-md hover:bg-yellow-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                    {/* <button className="mt-6 px-6 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-yellow-400 rounded-md hover:bg-yellow-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                         Explore My Work
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

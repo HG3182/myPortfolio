@@ -31,21 +31,21 @@ export default function Projects() {
                         {activeTab === 'Hardware' && (
                             <div>
                                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-3">
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/smartLock.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/smartLock.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Smart Lock System</h2>
                                             <a href="https://www.tinkercad.com/things/7VO7dTHBw5K-smart-lock-system" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/smartDoor.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/smartDoor.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Smart Door Using PIR Sensor</h2>
                                             <a href="https://www.tinkercad.com/things/eaQZfJngy1F-smart-door-using-pir-sensor" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/motionDetection.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/motionDetection.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Motion Detector</h2>
                                             <a href="https://www.tinkercad.com/things/beB3dMblwDF-motion-detector" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
@@ -58,28 +58,28 @@ export default function Projects() {
                         {activeTab === 'Web / Software' && (
                             <div>
                                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-3">
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/calculator.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/calculator.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Calculator</h2>
                                             <a href="https://github.com/HG3182/Calculator?tab=readme-ov-file" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/noGussingGame.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/noGussingGame.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Number Guessing Game</h2>
                                             <a href="https://github.com/HG3182/Number_Guessing_Game?tab=readme-ov-file" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/qrCode.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/qrCode.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">QR Code Generator</h2>
                                             <a href="https://github.com/HG3182/QR-Code-Generator?tab=readme-ov-file" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(src/assets/img/RPS.png)`}}>
+                                    <div className="flex items-end overflow-hidden bg-cover rounded-lg h-96" style={{backgroundImage: `url(/img/RPS.png)`}}>
                                         <div className="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
                                             <h2 className="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Rock Paper Scissors</h2>
                                             <a href="https://github.com/HG3182/Rock-Paper-Scissors?tab=readme-ov-file" className="mt-2 text-lg tracking-wider text-yellow-500 uppercase dark:text-yellow-400 ">Check Out</a>
