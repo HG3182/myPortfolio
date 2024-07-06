@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(18, 18, 18)
+  /* background: linear-gradient(45deg, #243b55, #141e30); */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: radial-gradient(circle at center, rgba(72, 28, 169, 0.5), transparent); */
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+
+
+  .about {
+    @apply relative bg-white bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-lg p-6;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    filter: blur(0.5px);
+  }
