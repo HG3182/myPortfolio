@@ -1,4 +1,4 @@
-
+import laptopImage from '../assets/img/laptop.png'
 // import React from 'react'
 export default function AboutMe() {
     return (
@@ -19,7 +19,7 @@ export default function AboutMe() {
               </div>
   
               <div >
-                  <img  src="../../../src/assets/img/laptop.png" alt="" />
+                <img src={laptopImage} alt="Laptop" />
               </div>
   
           </div>
