@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="container px-6 py-16 mx-auto align-middle">
         <div className="items-center lg:flex">
             <div className="flex items-center justify-center w-full h-full mt-6 lg:mt-0 lg:w-1/2">
-                <HeroModel />
+                <img src="./img/RPS.png" alt="" />
             </div>
 
             <div className="w-full lg:w-1/2">
