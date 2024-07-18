@@ -4,7 +4,7 @@ import HeroModel from "./HeroModel";
 export default function Hero() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/HRUSHIKESH DEEPAK GAWADE _07_07_2024_12_23_08_PM.pdf';
+        link.href = '/resume.pdf';
         link.download = 'Hrushikesh Gawade_Resume.pdf';
         document.body.appendChild(link);
         link.click();
