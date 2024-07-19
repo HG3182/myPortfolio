@@ -17,7 +17,7 @@ export default function TimeLine() {
     </li>
     <li className="mb-10 ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-yellow-400"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">2020 - 2024</time>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">2024</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-yellow-400">JSPM Rajarshi Shahu College of Engineering</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-300">
           Completed my Bachelor's degree in Electronics and Telecommunication Engineering (ENTC). During my time here, I gained a strong foundation in electronic systems, signal processing, and communication technologies. This diverse curriculum not only honed my technical skills but also fostered my passion for integrating hardware knowledge with software development, setting the stage for my career in frontend and UI/UX development.
@@ -25,7 +25,7 @@ export default function TimeLine() {
     </li>
     <li className="ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-yellow-400"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">2018 - 2019</time>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">2020</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-yellow-400">Sant Tukaram Eng.Med School & Jr.College</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-300">
           Completed my Higher Secondary Education (12th grade) with a focus on Science. This foundational period ignited my passion for scientific inquiry and problem-solving. The rigorous curriculum in physics, chemistry, and mathematics laid a strong groundwork for my future engineering studies and sparked my interest in technology and its applications.
